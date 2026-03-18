@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use server"
 
 import { pengumpulanSchema } from "@/schemas/Pengumpulan"

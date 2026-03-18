@@ -32,7 +32,8 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   await verifySession()
-  const user = await getUser()
+  const userStr = await getUser()
+  const user = userStr ? JSON.parse(userStr) : {}
   return (
     // <html lang="en">
     //   <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>

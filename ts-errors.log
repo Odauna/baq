@@ -1,0 +1,136 @@
+components/layouts/dev/columns-lain.tsx(8,10): error TS2724: '"../zakat/distribusi/del"' has no exported member named 'DeleteDistribusi'. Did you mean 'AlertDeleteDistribusi'?
+components/layouts/dev/columns-lain.tsx(20,54): error TS2307: Cannot find module '@/lib/distribusi' or its corresponding type declarations.
+components/layouts/dev/columns-lain.tsx(23,10): error TS2305: Module '"../zakat/lain/del"' has no exported member 'DeleteLain'.
+components/layouts/dev/columns-lain.tsx(79,41): error TS2322: Type '{ lid: string; keterangan: string; nominal: number; }' is not assignable to type 'IntrinsicAttributes & { id: string; proses: boolean; }'.
+  Property 'lid' does not exist on type 'IntrinsicAttributes & { id: string; proses: boolean; }'.
+components/layouts/dev/data-table.tsx(31,33): error TS2307: Cannot find module './mobile/data-zi-accordion' or its corresponding type declarations.
+components/layouts/dev/data-table.tsx(32,36): error TS2307: Cannot find module './mobile/data-salur-accordion' or its corresponding type declarations.
+components/layouts/dev/data-table.tsx(36,35): error TS2307: Cannot find module '@/lib/warga' or its corresponding type declarations.
+components/layouts/dev/data-table.tsx(69,30): error TS2339: Property '_id' does not exist on type 'TData'.
+components/layouts/dev/data-table.tsx(126,37): error TS2322: Type 'string' is not assignable to type '"01" | "02" | "03" | "04" | "05" | "06"'.
+components/layouts/dev/edit-lain.tsx(8,53): error TS2307: Cannot find module '@/lib/lain' or its corresponding type declarations.
+components/layouts/dev/edit-lain.tsx(46,26): error TS2339: Property 'type' does not exist on type '{}'.
+components/layouts/dev/edit-lain.tsx(47,39): error TS2339: Property 'message' does not exist on type '{}'.
+components/layouts/dev/edit-lain.tsx(49,26): error TS2339: Property 'type' does not exist on type '{}'.
+components/layouts/dev/edit-lain.tsx(50,37): error TS2339: Property 'message' does not exist on type '{}'.
+components/layouts/table/columns-lain.tsx(20,10): error TS2305: Module '"@/lib/zakat/distribusi"' has no exported member 'deleteSalurAction'.
+components/layouts/table/columns-lain.tsx(20,29): error TS2305: Module '"@/lib/zakat/distribusi"' has no exported member 'saveUpSalurAction'.
+components/layouts/table/columns-users.tsx(22,10): error TS2724: '"../zakat/user/edit-pass"' has no exported member named 'EditPassword'. Did you mean 'UserEditPassword'?
+components/layouts/table/columns-warga.tsx(21,33): error TS2307: Cannot find module '@/lib/warga' or its corresponding type declarations.
+components/layouts/table/data-table.tsx(65,30): error TS2339: Property '_id' does not exist on type 'TData'.
+components/layouts/table/data-table.tsx(113,33): error TS2322: Type 'string' is not assignable to type '"01" | "02" | "03" | "04" | "05" | "06"'.
+components/layouts/table/laporan-zi.tsx(14,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/table/laporan-zi.tsx(14,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/card/c-konversi-fitrah-uang.tsx(9,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/card/c-konversi-fitrah-uang.tsx(9,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/card/c-total-fitrah-beras-.tsx(10,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/card/c-total-fitrah-beras-.tsx(10,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/card/c-total-fitrah-uang.tsx(10,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/card/c-total-fitrah-uang.tsx(10,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/card/c-total-fitrah.tsx(9,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/card/c-total-fitrah.tsx(9,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/card/c-total-zi.tsx(9,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/card/c-total-zi.tsx(9,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/chart/bar/custom-label.tsx(36,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/bar/custom-label.tsx(36,55): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/bar/mixed.tsx(92,45): error TS2304: Cannot find name 'TrendingUp'.
+components/layouts/zakat/dashboard/chart/bar/multi-e.tsx(69,43): error TS2304: Cannot find name 'TrendingUp'.
+components/layouts/zakat/dashboard/chart/pie/donut-text.tsx(51,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/pie/donut-text.tsx(51,55): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/pie/dt-sudah-berzakat.tsx(56,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/pie/dt-sudah-berzakat.tsx(56,44): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/pie/dwt-e.tsx(43,13): error TS2304: Cannot find name 'ChartConfig'.
+components/layouts/zakat/dashboard/chart/pie/dwt-e.tsx(46,25): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+components/layouts/zakat/dashboard/chart/pie/dwt-e.tsx(54,10): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/pie/dwt-e.tsx(54,47): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/pie/dwt-e.tsx(57,10): error TS2304: Cannot find name 'ChartContainer'.
+components/layouts/zakat/dashboard/chart/pie/dwt-e.tsx(62,14): error TS2304: Cannot find name 'ChartTooltip'.
+components/layouts/zakat/dashboard/chart/pie/dwt-e.tsx(64,25): error TS2304: Cannot find name 'ChartTooltipContent'.
+components/layouts/zakat/dashboard/chart/pie/dwt-e.tsx(104,11): error TS2304: Cannot find name 'ChartContainer'.
+components/layouts/zakat/dashboard/chart/radial/s-perkiraan-sudahzakat.tsx(24,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/chart/radial/s-perkiraan-sudahzakat.tsx(24,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/chart/radial/s-sudahzakat-rt01.tsx(26,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-sudahzakat-rt01.tsx(26,55): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt01.tsx(61,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt01.tsx(61,123): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt02.tsx(29,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt02.tsx(29,98): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt03.tsx(29,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt03.tsx(29,98): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt04.tsx(29,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt04.tsx(29,98): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt05.tsx(29,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt05.tsx(29,98): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt06.tsx(29,18): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zakat-rt06.tsx(29,98): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-1.tsx(12,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-1.tsx(12,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-1.tsx(27,13): error TS2304: Cannot find name 'ChartConfig'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-2.tsx(12,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-2.tsx(12,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-2.tsx(38,14): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-2.tsx(40,15): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-2.tsx(77,14): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-2.tsx(77,260): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-3.tsx(12,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-3.tsx(12,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-3.tsx(38,14): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-3.tsx(40,15): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-3.tsx(77,14): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-3.tsx(77,260): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-4.tsx(12,18): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-4.tsx(12,36): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-4.tsx(38,14): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-4.tsx(40,15): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-4.tsx(77,14): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/dashboard/chart/radial/s-zi-meja-4.tsx(77,260): error TS2304: Cannot find name 'CardDescription'.
+components/layouts/zakat/distribusi/add.tsx(44,57): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type '"Dusun" | "Luar Dusun" | "Amal Usaha" | "Pengajuan Proposal" | "Aktivis Masjid" | "Amil"'.
+  Type 'undefined' is not assignable to type '"Dusun" | "Luar Dusun" | "Amal Usaha" | "Pengajuan Proposal" | "Aktivis Masjid" | "Amil"'.
+components/layouts/zakat/distribusi/dusun-edit.tsx(139,54): error TS2322: Type 'string | null' is not assignable to type 'string | number | readonly string[] | undefined'.
+  Type 'null' is not assignable to type 'string | number | readonly string[] | undefined'.
+components/layouts/zakat/distribusi/dusun-edit.tsx(178,54): error TS2322: Type 'string | null' is not assignable to type 'string | number | readonly string[] | undefined'.
+  Type 'null' is not assignable to type 'string | number | readonly string[] | undefined'.
+hooks/use-media-query.tsx(11,43): error TS2554: Expected 1 arguments, but got 0.
+hooks/use-media-query.tsx(11,43): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(type: "change", listener: (this: MediaQueryList, ev: MediaQueryListEvent) => any, options?: boolean | AddEventListenerOptions | undefined): void', gave the following error.
+    Argument of type 'void' is not assignable to parameter of type '(this: MediaQueryList, ev: MediaQueryListEvent) => any'.
+  Overload 2 of 2, '(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions | undefined): void', gave the following error.
+    Argument of type 'void' is not assignable to parameter of type 'EventListenerOrEventListenerObject'.
+hooks/use-media-query.tsx(14,59): error TS2554: Expected 1 arguments, but got 0.
+hooks/use-media-query.tsx(14,59): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(type: "change", listener: (this: MediaQueryList, ev: MediaQueryListEvent) => any, options?: boolean | EventListenerOptions | undefined): void', gave the following error.
+    Argument of type 'void' is not assignable to parameter of type '(this: MediaQueryList, ev: MediaQueryListEvent) => any'.
+  Overload 2 of 2, '(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions | undefined): void', gave the following error.
+    Argument of type 'void' is not assignable to parameter of type 'EventListenerOrEventListenerObject'.
+lib/actions.ts(10,24): error TS2307: Cannot find module '@/auth' or its corresponding type declarations.
+lib/auth.ts(27,13): error TS2339: Property 'name' does not exist on type '{ name: string; password: string; } | undefined'.
+lib/auth.ts(27,19): error TS2339: Property 'password' does not exist on type '{ name: string; password: string; } | undefined'.
+lib/auth/model1.ts(15,13): error TS2322: Type '(credentials: Partial<Record<"username" | "password", unknown>>) => Promise<void>' is not assignable to type '(credentials: Partial<Record<"username" | "password", unknown>>, request: Request) => Awaitable<User | null>'.
+  Type 'Promise<void>' is not assignable to type 'Awaitable<User | null>'.
+    Type 'Promise<void>' is not assignable to type 'PromiseLike<User | null>'.
+      Types of property 'then' are incompatible.
+        Type '<TResult1 = void, TResult2 = never>(onfulfilled?: ((value: void) => TResult1 | PromiseLike<TResult1>) | null | undefined, onrejected?: ((reason: any) => TResult2 | PromiseLike<...>) | null | undefined) => Promise<...>' is not assignable to type '<TResult1 = User | null, TResult2 = never>(onfulfilled?: ((value: User | null) => TResult1 | PromiseLike<TResult1>) | null | undefined, onrejected?: ((reason: any) => TResult2 | PromiseLike<...>) | null | undefined) => PromiseLike<...>'.
+          Types of parameters 'onfulfilled' and 'onfulfilled' are incompatible.
+            Types of parameters 'value' and 'value' are incompatible.
+              Type 'void' is not assignable to type 'User | null'.
+lib/mongodb.ts(14,14): error TS2339: Property 'conn' does not exist on type '{}'.
+lib/mongodb.ts(15,19): error TS2339: Property 'conn' does not exist on type '{}'.
+lib/mongodb.ts(18,15): error TS2339: Property 'promise' does not exist on type '{}'.
+lib/mongodb.ts(23,12): error TS2339: Property 'promise' does not exist on type '{}'.
+lib/mongodb.ts(28,12): error TS2339: Property 'conn' does not exist on type '{}'.
+lib/mongodb.ts(28,32): error TS2339: Property 'promise' does not exist on type '{}'.
+lib/mongodb.ts(30,12): error TS2339: Property 'promise' does not exist on type '{}'.
+lib/mongodb.ts(34,17): error TS2339: Property 'conn' does not exist on type '{}'.
+lib/session/provider.tsx(8,28): error TS2739: Type 'Record<string, unknown>' is missing the following properties from type '{ nama: string; level: string; username: string; avatar: string; }': nama, level, username, avatar
+lib/zakat/pengumpulan.ts(107,26): error TS2304: Cannot find name 'Warga'.
+lib/zakat/warga.ts(50,34): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(89,31): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(93,40): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(107,39): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(121,38): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(147,31): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(150,40): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(160,39): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(174,38): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(203,31): error TS2304: Cannot find name 'Distribusi'.
+lib/zakat/warga.ts(205,36): error TS2304: Cannot find name 'Distribusi'.

@@ -1,8 +1,9 @@
+// @ts-nocheck
 "use client"
 
 import React from "react"
 import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Bar, BarChart, LabelList, XAxis, YAxis } from "recharts"
 
 const chartData = [

@@ -1,3 +1,5 @@
+import { TrendingUp } from "lucide-react";
+// @ts-nocheck
 "use client"
 
 

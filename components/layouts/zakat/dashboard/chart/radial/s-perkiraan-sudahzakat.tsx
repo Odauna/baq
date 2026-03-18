@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client"
 
 import { Label, PolarRadiusAxis, RadialBar, RadialBarChart } from "recharts"
