@@ -1,0 +1,8 @@
+th, td {
+    border: 2px solid rgb(196, 196, 196);
+    border-spacing: 2px
+
+}
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(247, 247, 247);
+}
